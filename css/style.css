@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #EFBA54;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.color-purple{
+  color: #B91450;
+}
+
+ul {
+  list-style: none;
+}
+
+label{
+  color: #BC3B59;
+  font-size: larger;
+}
+
+button{
+  padding: 2%;
+  margin-top: 6px;
+}
+
+.container{
+  width: 30%;
+  margin: auto;
+  background-color: #fff;
+  height: 300px;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.add_container{
+  height: 100px;
+  text-align: center;
+  color: #fff;
+  background-color: #BC3B59;
+}

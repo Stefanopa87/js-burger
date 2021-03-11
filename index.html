@@ -1,0 +1,61 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PANINO</title>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <h1>Crea il tuo panino: </h1>
+
+    <div class="container">
+        <input id="burger-name" name="burger-name" type="text" placeholder="Nome del panino">
+        <h2 class="color-purple">Aggiungi ingredienti:</h2>
+        <ul>
+            <li>
+                <img src="img/cheese.svg" width="20px">
+                <input id="formaggio" class="ingred" type="checkbox" data-price="1.5"> Formaggio
+            </li>
+            <li>
+                <img src="img/fried-egg.svg" width="20px">
+                <input id="uova" class="ingred" type="checkbox" data-price="2"> Uova
+            </li>
+            <li>
+                <img src="img/mustard.svg" width="20px">
+                <input id="mostarda" class="ingred" type="checkbox" data-price="1"> Mostarda
+            </li>
+            <li>
+                <img src="img/tomato.svg" width="20px">
+                <input id="pomodoro" class="ingred" type="checkbox" data-price="1.5"> Pomodoro
+            </li>
+            <li>
+                <img src="img/lettuce.svg" width="20px">
+                <input id="lattuga" class="ingred" type="checkbox" data-price="1"> Lattuga
+            </li>
+            <li>
+                <img src="img/ketchup.svg" width="20px">
+                <input id="ketchup" class="ingred" type="checkbox" data-price=".5"> Ketchup
+            </li>
+        </ul>
+        <div>
+            <label for="coupon">Codice Sconto</label>
+            <input id="burger-coupon" name="coupon" type="text" placeholder="Inserisci">
+        </div>
+        <!-- tutto parte da questo button che svolgera in js le funzioni -->
+        <button id="calculate">Calcola prezzo</button>
+    </div>
+
+    <h1>Il tuo totale: </h1>
+
+    <div class="container add_container">
+      <h2>
+        <span>Prezzo</span>
+        <span>
+          <span> € </span> <span id="price"> </span>
+        </span>
+      </h2>
+    </div>
+
+  <script src="js/script.js"></script>
+  </body>
+</html>
